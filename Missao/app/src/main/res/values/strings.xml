@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">A Missão</string>
+
+    <string name="type_code">Digite o Código</string>
+    <string name="code">change</string>
+
+    <string name="button_access">ACESSAR</string>
+
+    <string name="message_invalid_code">Código inválido. Por favor, tente novamente!</string>
+
+    <string name="default_font">@string/font_gotham_book</string>
+    <string name="font_helvetica_cond">Fonts/helvetica_condensed.otf</string>
+    <string name="font_gotham_bold">Fonts/gotham-bold.ttf</string>
+    <string name="font_gotham_book">Fonts/gotham-book.ttf</string>
+    <string name="font_gotham_medium">Fonts/gotham-medium.ttf</string>
+
+    <string name="title_mission">A MISSÃO</string>
+    <string name="text_mission">Lançar, às 18:18, um vídeo que reúna as crenças deste grupo (formado por alguns dos Agentes de Mudança mais talentosos da nossa geração) sobre por que e como os produtos que estão dentro da caixa, no centro da mesa, transformam o mundo ao nosso redor. Até às 16h, essas crenças deverão ser transformadas em um texto que será usado como narração para o vídeo. </string>
+
+    <string name="dialog_generic_button_ok">OK</string>
+    <string name="dialog_generic_title_attention">Atenção!</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Opaque.Primary</item>
+    </style>
+
+    <style name="ActionBarStyle.Opaque.Primary" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/color_primary_header</item>
+        <item name="android:icon">@color/color_transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBarStyle.Opaque.TitleTextStyle.Primary</item>
+    </style>
+
+    <style name="ActionBarStyle.Opaque.TitleTextStyle.Primary" parent="@android:style/Widget.ActionBar">
+        <item name="android:textColor">@color/color_primary_text</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>

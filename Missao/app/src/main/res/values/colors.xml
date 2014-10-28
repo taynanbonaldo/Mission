@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_primary_button_on">#20000000</color>
+    <color name="color_primary_button_off">#00FFFFFF</color>
+    <color name="color_primary_button_stroke">#000000</color>
+    <color name="color_primary_button_text">#000000</color>
+
+    <color name="color_transparent">#00FFFFFF</color>
+    <color name="color_primary_header">#FFFFFF</color>
+    <color name="color_primary_text">#000000</color>
+
+</resources>
