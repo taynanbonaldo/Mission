@@ -3,13 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="@color/color_primary_header"
     android:gravity="center_vertical|center_horizontal"
     tools:context=".CodeActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_mission_text"/>
 
     <mesaecadeira.com.missao.widgets.FontableTextView
         android:id="@+id/textview_title"
@@ -21,6 +25,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="18dp"
         android:textSize="24sp"
+        android:visibility="gone"
         android:layout_alignParentLeft="true"
         android:layout_above="@+id/textview_mission"
         app:customFont="@string/font_gotham_bold"
@@ -34,6 +39,7 @@
         android:layout_centerInParent="true"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
+        android:visibility="gone"
         android:textSize="20sp"
         android:text="@string/text_mission"/>
 
